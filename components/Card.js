@@ -32,7 +32,7 @@ export default function Card(props) {
   <dl className="flex mt-6" style={{display: props.ogURL > 0 ? 'none' : 'block', margin: props.ogURL > 0 ? '0' : ''}}>
     <div className="flex flex-col-reverse">
       <dt className="text-sm font-medium text-gray-600">{props.ogURL}</dt>
-      <dd className="text-xs text-gray-500">Original URL</dd>
+      <dd className="text-xs text-gray-500">Real Destination</dd>
     </div>
 
     {/* <div className="flex flex-col-reverse ml-3 sm:ml-6">
