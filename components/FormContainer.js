@@ -4,7 +4,7 @@ import Card from './Card'
 import Loader from './Loader'
 
 export default function FormContainer() {
-    const [url, setUrl ] = useState('https://bit.ly/3GYClID')
+    const [url, setUrl ] = useState('https://bit.ly/3JVtCZZ')
     const [title, setTitle] = useState('')
     const [description, setDescription] = useState('')
     const [ogURL, setOgURL] = useState('')
