@@ -37,7 +37,7 @@ export default function FormContainer() {
         </p>
 
         <p className="mt-8 text-xl">
-           Stay protected from malicious/phishing links. Prevents you from getting you rickrolled.
+           It shows you the real destination of a link or shortened urls.
         </p>
 
         <form className="mt-8 sm:flex" onSubmit={revealURL}>
